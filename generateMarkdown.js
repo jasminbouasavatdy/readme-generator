@@ -17,9 +17,9 @@ switch(license){
 function renderLicenseLink(license) {
   switch(license){
     case 'GNU': return '[GNU](https://choosealicense.com/licenses/agpl-3.0/)';
-    case 'MIT': return '![License Chosen](https://choosealicense.com/licenses/mit/)';
-    case 'APACHE': return '![License Chosen](https://choosealicense.com/licenses/apache-2.0/)';
-    case 'MPL': return '![License Chosen](https://choosealicense.com/licenses/mpl-2.0/)';
+    case 'MIT': return '[MIT](https://choosealicense.com/licenses/mit/)';
+    case 'APACHE': return '[APACHE](https://choosealicense.com/licenses/apache-2.0/)';
+    case 'MPL': return '[MPL](https://choosealicense.com/licenses/mpl-2.0/)';
     default: return '';
   }
 }
@@ -34,7 +34,6 @@ function renderLicenseSection(license) {
 function generateMarkdown(answers) {
   var license = renderLicenseBadge(answers.license);
   var licenseLink = renderLicenseLink(answers.license);
-  var licenseSection =renderLicenseSection(answers.license)
   return license + `\n# ${answers.title}
 
   ## Table of contents
@@ -60,6 +59,7 @@ function generateMarkdown(answers) {
   ## Tests
   ${answers.test}
   ## Questions
+  ${answers.email}\n
   [Click to go to my GitHub](https://github.com/${answers.questions})
   ## Contact
   You can contact me by: ${answers.preferredCommunication}`
