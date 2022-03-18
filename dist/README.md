@@ -1,5 +1,5 @@
-![License Chosen](/images/GNU-License.png)
-# rgfvde
+![License Chosen](/images/MIT-License.png)
+# 
 
   ## Table of contents
   1. [Description](#Description)
@@ -12,18 +12,18 @@
   1. [Contact](#Contact)
   
   ## Description
-  rgf
+  
   ## Installation
-  dr
+  
   ## Usage
-  gfv
+  
   ## License
-  [GNU](https://choosealicense.com/licenses/agpl-3.0/)
+  ![License Chosen](https://choosealicense.com/licenses/mit/)
   ## Contributors
-  der
+  
   ## Tests
-  tgfvd
+  
   ## Questions
-  [Click to go to my GitHub](https://github.com/fder)
+  [Click to go to my GitHub](https://github.com/)
   ## Contact
   You can contact me by: email
